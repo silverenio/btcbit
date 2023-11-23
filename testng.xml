@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BTCBIT Test Suite">
+    <listeners>
+        <listener class-name="listeners.CustomListener"/>
+    </listeners>
+    <suite-files>
+        <suite-file path="src/test/resources/suites/web.xml"/>
+        <suite-file path="src/test/resources/suites/api.xml"/>
+    </suite-files>
+</suite>
