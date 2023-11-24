@@ -5,17 +5,16 @@ About framework
 
 You need to have Maven installed.
 
-run 
+To run the tests, run:
 ```
 mvn clean install
 ```
-to run the tests
 
-or run
+If you want to run tests from IDE,
+to build or rebuild framework, run:
 ```
 mvn clean install -Dskiptests=true
 ```
-to rebuild framework
 
 Reporting
 ---
