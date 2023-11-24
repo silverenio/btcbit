@@ -3,6 +3,8 @@ About framework
 
 ---
 
+You need to have Maven installed.
+
 run 
 ```
 mvn clean install
